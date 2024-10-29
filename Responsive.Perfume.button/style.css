@@ -1,0 +1,172 @@
+/* General Styles */
+p {
+    font-size: 14px;
+}
+
+body {
+    background-color: hsl(30, 38%, 90%);
+
+}
+
+p { font-family: 'Fraunces';
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* Container Div */
+.container {
+    background-color: #FAF9F6
+}
+
+.container {
+   
+    
+}
+
+.container button {
+    justify-content: center;
+    align-items: center;
+} 
+
+.numbers h1 {
+    color: hsl(158, 36%, 37%)
+}
+
+/* Button styles */
+
+button {
+    background-color: hsl(158, 36%, 37%); /* changes button color */
+}
+
+button p {
+    color: #FAF9F6;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+button img {
+    margin-right: 1rem;
+}
+
+
+/* Numbers div */
+.numbers {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.numbers p {
+    text-decoration: line-through;
+}
+
+/* Mobile Design */
+
+@media  screen and (max-width:375px) {
+    button {
+        width: 75%;
+        margin: 2rem
+    }
+
+    button:active {
+        background-color: white;
+    }
+
+    button p {
+        color: #FAF9F6;
+    }
+    
+    
+    /* Button Styles^ */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 1rem ;
+
+    }
+
+    .container p, .container h1  {
+        padding-left: 1rem;
+    }
+    
+    .img img {
+        width: 100%;
+        height: auto;
+    } 
+
+    /* Container Styles^ */
+
+    .numbers {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+/* End of 376 Mobile */
+
+@media  screen and (min-width:376px) and (max-width: 1440px) {
+
+.container {
+  display: flex;
+  max-width: 65rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+ 
+.img {
+    width: 100%;
+    flex: 0 0 250px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex: 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+button {
+    max-width: 28rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
